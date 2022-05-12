@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org/DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.example.myservice.dao.Dept03Dao">
+    <select id="selectList" parameterType="com.example.myservice.model.Dept03"
+            resultType="com.example.myservice.model.Dept03">
+        SELECT DNO
+             , DNAME
+             , LOC
+        FROM DEPT03
+    </select>
+</mapper>
